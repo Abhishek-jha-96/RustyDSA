@@ -56,3 +56,12 @@ RustyDSA/
 
 # Contributing
 **Contributions are welcome! Feel free to submit issues or pull requests.**
+
+## Instructions:
+- Create a separate module for the topic you are adding/contributing.
+```bash
+mkdir <dir_name>
+touch <dir_name>/mod.rs
+```
+- Add the Integrations code to main.
+- Add test case for the code. (optional)
