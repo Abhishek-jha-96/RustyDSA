@@ -1,7 +1,7 @@
-use rustydsa::guessing_game::secret_number;
-
+use rustydsa::bitwise::power_of_two_v2;
 
 
 fn main() {
-    secret_number();
+ let res = power_of_two_v2(32);
+ println!("power of two using shift operator: {}", res);
 }
